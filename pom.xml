@@ -10,5 +10,6 @@
 
     <modules>
         <module>Day1/ConnectionPool</module>
+        <module>Day1/CacheDebouncing</module>
     </modules>
 </project>

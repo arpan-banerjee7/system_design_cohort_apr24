@@ -4,18 +4,24 @@
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/Day1/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/Day1/ConnectionPool/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day1/CacheDebouncing/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ConnectionPool" />
         <module name="Day1" />
+        <module name="CacheDebouncing" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cohort.day1" target="1.7" />
+      <module name="ConnectionPool (1)" target="1.8" />
+      <module name="ConnectionPool (2)" target="1.8" />
+      <module name="uu" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -11,5 +11,6 @@
     <modules>
         <module>Day1/ConnectionPool</module>
         <module>Day1/CacheDebouncing</module>
+        <module>Day4/slackpoc</module>
     </modules>
 </project>

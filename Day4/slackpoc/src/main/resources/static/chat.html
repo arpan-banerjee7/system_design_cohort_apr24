@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat</title>
+</head>
+<body>
+<h1>Chat</h1>
+<div>
+    <input id="message" type="text" placeholder="Enter message">
+    <button onclick="sendMessage()">Send</button>
+</div>
+<div id="messages"></div>
+<script>
+    // Generate a random userId
+    var userId = 'user' + Math.floor(Math.random() * 1000);
+
+    var socket = new WebSocket("ws://localhost:8090/ws?userId=" + userId);
+
+    socket.onopen = function() {
+        console.log("Connected to WebSocket");
+    };
+
+    socket.onmessage = function(event) {
+        var messageContainer = document.getElementById("messages");
+        var messageElement = document.createElement("p");
+        var messageData = JSON.parse(event.data);
+        messageElement.innerText = messageData.userId + ": " + messageData.message;
+        messageContainer.appendChild(messageElement);
+    };
+
+    function sendMessage() {
+        var input = document.getElementById("message");
+        var message = {
+            userId: userId,
+            message: input.value
+        };
+        socket.send(JSON.stringify(message));
+        input.value = "";
+    }
+</script>
+</body>
+</html>

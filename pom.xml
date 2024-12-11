@@ -12,5 +12,12 @@
         <module>Day1/ConnectionPool</module>
         <module>Day1/CacheDebouncing</module>
         <module>Day4/slackpoc</module>
+        <module>Day1/EcommerceAutocompleteFuzzySearch</module>
+        <module>Day1/RuleEngine</module>
+        <module>Day1/FileSystem</module>
+        <module>Day1/LibraryFineDecoratorPattern</module>
+        <module>Day1/NotificationService</module>
+        <module>Day1/RateLimiter</module>
+        <module>Day1/SnakeGame</module>
     </modules>
 </project>

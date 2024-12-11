@@ -6,6 +6,13 @@
       <directory url="file://$PROJECT_DIR$/Day1/ConnectionPool/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/Day1/CacheDebouncing/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/Day4/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day1/EcommerceAutocompleteFuzzySearch/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day1/RuleEngine/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day1/FileSystem/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day1/LibraryFineDecoratorPattern/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day1/NotificationService/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day1/RateLimiter/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day1/SnakeGame/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
@@ -14,9 +21,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ConnectionPool" />
-        <module name="CacheDebouncing" />
+        <module name="RuleEngine" />
         <module name="Day1" />
+        <module name="EcommerceAutocompleteFuzzySearch" />
         <module name="slackpoc" />
+        <module name="FileSystem" />
+        <module name="SnakeGame" />
+        <module name="LibraryFineDecoratorPattern" />
+        <module name="NotificationService" />
+        <module name="CacheDebouncing" />
+        <module name="RateLimiter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

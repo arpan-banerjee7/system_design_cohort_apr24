@@ -19,5 +19,8 @@
         <module>Day1/NotificationService</module>
         <module>Day1/RateLimiter</module>
         <module>Day1/SnakeGame</module>
+        <module>Day1/HierachicalComponents</module>
+        <module>Day1/MeetingScheduler</module>
+        <module>Day1/RPCCallCircuitBreaker</module>
     </modules>
 </project>

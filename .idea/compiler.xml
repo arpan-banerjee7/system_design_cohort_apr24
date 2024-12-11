@@ -13,6 +13,8 @@
       <directory url="file://$PROJECT_DIR$/Day1/NotificationService/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/Day1/RateLimiter/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/Day1/SnakeGame/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day1/HierachicalComponents/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Day1/MeetingScheduler/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
@@ -22,15 +24,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ConnectionPool" />
         <module name="RuleEngine" />
-        <module name="Day1" />
+        <module name="HierachicalComponents" />
         <module name="EcommerceAutocompleteFuzzySearch" />
         <module name="slackpoc" />
-        <module name="FileSystem" />
         <module name="SnakeGame" />
-        <module name="LibraryFineDecoratorPattern" />
         <module name="NotificationService" />
-        <module name="CacheDebouncing" />
         <module name="RateLimiter" />
+        <module name="Day1" />
+        <module name="RPCCallCircuitBreaker" />
+        <module name="FileSystem" />
+        <module name="LibraryFineDecoratorPattern" />
+        <module name="CacheDebouncing" />
+        <module name="MeetingScheduler" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -375,5 +375,3 @@ class FairUnisexBathroom {
         male2.join();
     }
 }
-
-do not do anythng its for my notes
